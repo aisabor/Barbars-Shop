@@ -1,0 +1,221 @@
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Playfair Display', serif;
+        
+    
+
+    }
+
+    body{
+        background-color: black;
+    }
+
+    .head{
+
+    background-color: #73744B;
+    height: 260px;
+    background-size: contain;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+
+    }
+
+    h2{
+        position: relative;
+        float: right;
+        padding-top: 10px;
+        padding-right: 20px;
+        top: 130px;
+
+    }
+
+    .header a{
+        
+        display: flex;
+        display: inline;
+        font-size: 2vh;
+        border: 2px solid wheat;  
+        border-radius: 12px;
+        color: wheat;         
+        float: right;
+        padding: 20px;
+        margin: 10px;
+        
+    }
+
+
+    .head a:hover{
+        background: black;
+    }
+
+    .clip{
+        float: left;
+    }
+
+
+    .flexside {
+        
+        height: 800px; 
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+
+    .flexbox-container{
+        display: flex;
+        flex-direction: column; 
+        
+        
+    }
+
+
+    .flexbox-item{
+        width: 200px;
+        margin: 10px;
+        border: 5px solid white;
+        align-items: center;
+        text-align: center;
+        height: 250px;
+        font-size: 30px;
+        border-radius: 40px 60px;
+    }
+
+    .flexbox-item-1{
+        background-image: url(affr.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .flexbox-item-2{
+        background-image: url(afro.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .flexbox-item-3{
+        background-image: url(las.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .third{
+        background-color: coral;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        margin: 5px;
+        color: white;
+        text-align: center;    
+        flex-grow: 5rem;
+        
+    }
+
+    .third-one{
+        border:1px solid #73744B;
+        color: black;
+        padding: 20px;
+        margin: 5px;
+        
+        
+        
+    }
+
+    .third-two{
+        border:1px solid #73744B;
+        color: black;
+        padding: 20px;
+        margin: 5px;
+        
+        
+    }
+
+    .third-one i {
+        color: white;
+        font-size: 60px;
+
+    }
+    .third-two i {
+        color: white;
+        font-size: 60px;
+
+    }
+    .third-three i {
+        color: white;
+        font-size: 60px;
+
+    }
+    .third-three{
+        border:1px solid #73744B;
+        color: black;
+        padding: 20px;
+        margin: 5px;
+        
+        
+    }
+    .flexbox-item-1 img{
+        border: 20px solid white;
+    }
+    .links{
+        
+        
+        color: white;
+        text-align: center;
+        padding: 50px;
+        font-size: 70px;
+    
+        
+    }
+
+    form{
+        border: solid gray 20px;
+    }
+    
+
+    .form{
+
+        padding: 60px;
+        background-color: white;
+    }
+
+    label{
+        display: block;
+        padding: 20px;
+        font-size: 25px;
+    }
+    input{
+
+        width: 30%;
+        margin: 19px;
+        border: 2px solid black;
+        height: 50px;
+        font-size: 20px;
+        padding: 20px;
+
+    }
+
+    button{
+
+        margin: 49px;
+        width: 150px;
+        padding: 40px;
+        border-radius: 70px 92px;
+        cursor: pointer;
+        outline: none;
+        font-weight: bold;
+        background:linear-gradient( 90deg, white, black);
+        color: whitesmoke;
+    }
+
+    span{
+        display: block;
+        margin-left: 300px;
+        color: red;
+        font-style: italic;
+    }
+    footer{
+        color: white;
+        text-align: center;
+        align-items: center;
+    }
